@@ -1,0 +1,6 @@
+﻿  Main.cpp
+C:\Users\PC\Desktop\UPN\6to--2023_2\ComputacionGrafica\Git_proyecto_Subidos\vista_escena_plantilla_3D\vista_escena_3D\Main.cpp(24,48): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\PC\Desktop\UPN\6to--2023_2\ComputacionGrafica\Git_proyecto_Subidos\vista_escena_plantilla_3D\vista_escena_3D\Main.cpp(26,46): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\PC\Desktop\UPN\6to--2023_2\ComputacionGrafica\Git_proyecto_Subidos\vista_escena_plantilla_3D\vista_escena_3D\Main.cpp(142,17): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\PC\Desktop\UPN\6to--2023_2\ComputacionGrafica\Git_proyecto_Subidos\vista_escena_plantilla_3D\vista_escena_3D\Main.cpp(145,18): warning C4305: '+=': truncamiento de 'double' a 'float'
+  vista_escena_3D.vcxproj -> C:\Users\PC\Desktop\UPN\6to--2023_2\ComputacionGrafica\Git_proyecto_Subidos\vista_escena_plantilla_3D\x64\Debug\vista_escena_3D.exe

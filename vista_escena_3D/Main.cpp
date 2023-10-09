@@ -6,7 +6,7 @@ using namespace std;
 
 float camaraX = -30;
 float camaraY = 20;
-float camaraZ = 50;
+float camaraZ = 40;
 
 float angulo = 0;
 
@@ -72,6 +72,45 @@ void ejes() {
 	glEnd();
 	glPopMatrix();
 }
+void pared() {
+	glBegin(GL_QUADS);
+
+	// Pared frontal
+	glColor3ub(0, 0, 0);  // Negro
+	glVertex3d(-50, 0, -50);
+	glVertex3d(50, 0, -50);
+	glVertex3d(50, 50, -50);  // Altura de la pared
+	glColor3ub(190, 86, 105); // Rojo
+	glVertex3d(-50, 50, -50);
+
+	// Pared trasera
+	glColor3ub(0, 0, 0);  // Negro
+	glVertex3d(-50, 0, 50);
+	glVertex3d(50, 0, 50);
+	glVertex3d(50, 50, 50);  // Altura de la pared
+	glColor3ub(190, 86, 105); // Rojo
+	glVertex3d(-50, 50, 50);
+
+	// Pared izquierda
+	glColor3ub(0, 0, 0);  // Negro
+	glVertex3d(-50, 0, -50);
+	glVertex3d(-50, 0, 50);
+	glVertex3d(-50, 50, 50);  // Altura de la pared
+	glColor3ub(190, 86, 105); // Rojo
+	glVertex3d(-50, 50, -50);
+
+	// Pared derecha
+	glColor3ub(0, 0, 0);  // Negro
+	glVertex3d(50, 0, -50);
+	glVertex3d(50, 0, 50);
+	glVertex3d(50, 50, 50);  // Altura de la pared
+	glColor3ub(190, 86, 105); // Rojo
+	glVertex3d(50, 50, -50);
+
+	glEnd();
+}
+
+
 
 void dibujar() {
 
@@ -85,7 +124,9 @@ void dibujar() {
 	glRotated(angulo, 0, 1, 0);
 	piso();
 	ejes();
+	//pared();
 	glPopMatrix();
+
 
 	glutSwapBuffers();
 
@@ -97,9 +138,6 @@ void timer(int t) {
 }
 
 void teclado(int tecla, int x, int y) {
-
-	//cout<< "hola" << "\n";
-	//cout << tecla << "\n";
 
 	switch (tecla) {
 	case 101:
@@ -124,7 +162,7 @@ int main(int argc, char* argv[]) {
 	glutInitDisplayMode(GLUT_RGBA | GLUT_DEPTH | GLUT_DOUBLE);
 	glutInitWindowSize(1081, 762);
 	glutInitWindowPosition(0, 0);
-	glutCreateWindow("Semana 6");
+	glutCreateWindow("Plantilla - 3D");
 	glutReshapeFunc(iniciarVentana);
 	glutDisplayFunc(dibujar);
 	glutSpecialFunc(teclado);
