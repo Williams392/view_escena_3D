@@ -1,0 +1,13 @@
+﻿  Main.cpp
+C:\Users\PC\Desktop\UPN\6to--2023_2\ComputacionGrafica\Git_proyecto_Subidos\vista_escena_plantilla_3D\2-Mejor_Plantilla_3D\Main.cpp(13,20): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+C:\Users\PC\Desktop\UPN\6to--2023_2\ComputacionGrafica\Git_proyecto_Subidos\vista_escena_plantilla_3D\2-Mejor_Plantilla_3D\Main.cpp(14,20): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+C:\Users\PC\Desktop\UPN\6to--2023_2\ComputacionGrafica\Git_proyecto_Subidos\vista_escena_plantilla_3D\2-Mejor_Plantilla_3D\Main.cpp(25,43): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\PC\Desktop\UPN\6to--2023_2\ComputacionGrafica\Git_proyecto_Subidos\vista_escena_plantilla_3D\2-Mejor_Plantilla_3D\Main.cpp(26,41): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\PC\Desktop\UPN\6to--2023_2\ComputacionGrafica\Git_proyecto_Subidos\vista_escena_plantilla_3D\2-Mejor_Plantilla_3D\Main.cpp(27,44): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\PC\Desktop\UPN\6to--2023_2\ComputacionGrafica\Git_proyecto_Subidos\vista_escena_plantilla_3D\2-Mejor_Plantilla_3D\Main.cpp(50,45): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\PC\Desktop\UPN\6to--2023_2\ComputacionGrafica\Git_proyecto_Subidos\vista_escena_plantilla_3D\2-Mejor_Plantilla_3D\Main.cpp(51,45): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\PC\Desktop\UPN\6to--2023_2\ComputacionGrafica\Git_proyecto_Subidos\vista_escena_plantilla_3D\2-Mejor_Plantilla_3D\Main.cpp(52,46): warning C4305: 'inicializando': truncamiento de 'double' a 'GLfloat'
+C:\Users\PC\Desktop\UPN\6to--2023_2\ComputacionGrafica\Git_proyecto_Subidos\vista_escena_plantilla_3D\2-Mejor_Plantilla_3D\Main.cpp(121,55): warning C4305: 'argumento': truncamiento de 'double' a 'GLclampf'
+C:\Users\PC\Desktop\UPN\6to--2023_2\ComputacionGrafica\Git_proyecto_Subidos\vista_escena_plantilla_3D\2-Mejor_Plantilla_3D\Main.cpp(144,17): warning C4305: '+=': truncamiento de 'double' a 'float'
+C:\Users\PC\Desktop\UPN\6to--2023_2\ComputacionGrafica\Git_proyecto_Subidos\vista_escena_plantilla_3D\2-Mejor_Plantilla_3D\Main.cpp(147,17): warning C4305: '-=': truncamiento de 'double' a 'float'
+  2-Mejor_Plantilla_3D.vcxproj -> C:\Users\PC\Desktop\UPN\6to--2023_2\ComputacionGrafica\Git_proyecto_Subidos\vista_escena_plantilla_3D\x64\Debug\2-Mejor_Plantilla_3D.exe
